@@ -5,7 +5,6 @@ module Draper
 
     include ActiveModel::Serialization
     include ActiveModel::Serializers::JSON
-    include ActiveModel::Serializers::Xml
 
     # @return the object being decorated.
     attr_reader :object
