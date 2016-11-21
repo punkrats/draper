@@ -32,7 +32,7 @@ module Draper
       extend  Draper::HelperSupport
       extend  Draper::DecoratesAssigned
 
-      before_filter :activate_draper
+      before_action :activate_draper
     end
   end
 
